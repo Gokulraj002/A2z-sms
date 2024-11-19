@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    <head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="ex-coders">
+        <meta name="description" content="A2ZSMS ">
+        <!-- ======== Page title ============ -->
+        <title>A2ZSMS </title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Color.css >>-->
+        <link rel="stylesheet" href="assets/css/color.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+
+        <!-- Preloader Start -->
+        <div id="preloader" class="preloader">
+            <div class="animation-preloader">
+                <div class="spinner">                
+                </div>
+                <div class="txt-loading">
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                    <span data-text-preloader="2" class="letters-loading">
+                        2
+                    </span>
+                    <span data-text-preloader="Z" class="letters-loading">
+                        Z
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        S
+                    </span>
+                    <span data-text-preloader="M" class="letters-loading">
+                        M
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        S
+                    </span>
+                  
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<< Mouse Cursor Start >>-->  
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+
+        <!-- Offcanvas Area Start -->
+        <div class="fix-area">
+            <div class="offcanvas__info">
+                <div class="offcanvas__wrapper">
+                    <div class="offcanvas__content">
+                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div class="offcanvas__logo">
+                                <a href="/">
+                                    <img src="assets/img/logo/logo.png" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="offcanvas__close">
+                                <button>
+                                <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="text d-none d-xl-block">
+                          Bulk Sms is the most Popular Marketing method as compared to other marketing method, it is most trusted and Cheapest.                        </p>
+                        <div class="mobile-menu fix mb-3"></div>
+                        <div class="offcanvas__contact">
+                            <h4>Contact Info</h4>
+                            <ul>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon">
+                                        <i class="fal fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a target="_blank" href="#">183, 2nd Floor,G Block opposite to Reliance Trends, Sahakara Nagar Main Rd, Byatarayanapura, Bengaluru, Karnataka 560092</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fal fa-envelope"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="mailto:sales@a2zsms.in"><span class="mailto:sales@a2zsms.in">sales@a2zsms.in</span></a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fal fa-clock"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a target="_blank" href="#">Mon-Sat, 09.30am -06.30pm</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="far fa-phone"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="tel:+91 8431086185">+91 8431086185</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="header-button mt-4">
+                                <a href="contact.html" class="theme-btn text-center">
+                                   Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas__overlay"></div>
+
+        <!-- Header Section Start -->
+        <header class="header-section-1">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-wrapper">
+                        <ul class="contact-list">
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:sales@a2zsms.in">sales@a2zsms.in</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-phone"></i>
+                                <a href="tel:+91 8431086185">+91 8431086185</a>
+                            </li>
+                        </ul>
+                        <p> Packages Now Starting at <b>50% Off</b> for a Limited Time!</p>
+
+                        <ul class="list">
+                            <li><i class="fa-light fa-comments"></i><a href="contact.html">Live Chat</a></li>
+                            <li><i class="fa-light fa-user"></i>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    Login
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="header-sticky" class="header-2">
+                <div class="container">
+                    <div class="mega-menu-wrapper">
+                        <div class="header-main">
+                            <div class="header-left">
+                                <div class="logo">
+                                    <a href="/" class="header-logo">
+                                        <img src="assets/img/logo/logo.png" alt="logo-img" width="250px">
+                                    </a>
+                                    <a href="/" class="header-logo-2">
+                                        <img src="assets/img/logo/logo.png" alt="logo-img" width="250px">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-right d-flex justify-content-end align-items-center">
+                                <div class="mean__menu-wrapper">
+                                    <div class="main-menu">
+                                        <nav id="mobile-menu">
+                                            <ul class="menubar">
+                                                <li class="">
+                                                    <a href="/">
+                                                    Home 
+                                                </li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                
+                                                <!-- <li><a href="bulksms.html">Bulk SMS</a></li>                                                                                  -->
+                                                <li><a href="bulksms.html">Bulk SMS</a></li>                                                                                 
+                                                <li>
+                                                    <a href="service.html">
+                                                    service
+                                                    <i class="fas fa-angle-down"></i>
+                                                    </a>          
+                                                    <ul class="submenu">
+
+                                                        <li><a href="whatsapp-api.html">WhatsApp Api</a></li>
+                                                        <li><a href="rcs.html">Rcs Sms</a></li>
+                                                        <li><a href="bulksms.html">Bulk Sms</a></li>
+
+                                                                                                     
+                                                    </ul>   
+                                                    </li>                                                  
+                                                <li>
+                                                    <a href="contact.html">
+                                                    Contact Us
+                                                    <!-- <i class="fas fa-angle-down"></i> -->
+                                                    </a>
+                                                   
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
+                                <div class="header__hamburger d-xl-block my-auto">
+                                    <div class="sidebar__toggle">
+                                        <i class="fas fa-bars"></i>
+                                    </div>
+                                </div>
+                                <div class="header-button">
+                                    <a href="contact.html" class="theme-btn">
+                                        get Started
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Modal Version 1 -->
+        <div class="modal modal-common-wrap fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-md-flex d-grid gap-md-0 gap-5 align-items-center">
+                        <div class="modal-common-content">
+                            <div class="box">
+                                <h2>
+                                    welcome back!
+                                </h2>
+                                <form action="#" class="login-from">
+                                    <div class="form-grp cmn-mb">
+                                        <input type="email" placeholder="Email Address">
+                                    </div>
+                                    <div class="form-grp">
+                                        <input type="text" placeholder="Enter Password">
+                                    </div>
+                                    <div
+                                        class="d-flex forgot-inner-area cmn-mb justify-content-between gap-2 flex-wrap align-items-center">
+                                        <div class="form-check checkmark-inner">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                                checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Remember me
+                                            </label>
+                                        </div>
+                                        <a href="#" class="forgot">
+                                            Forgot Your password?
+                                        </a>
+                                    </div>
+                                    <button type="button" class="theme-btn w-100">
+                                        <span>
+                                            Log in
+                                        </span>
+                                    </button>
+                                </form>
+                                <span class="orting-badge">
+                                    Or
+                                </span>
+                                <div class="d-grid gap-3">
+                                    <a href="#" class="cmn-social">
+                                        <img src="assets/img/sign/google.png" alt="img">
+                                        Continue With Google
+                                    </a>
+                                    <a href="#" class="cmn-social">
+                                        <img src="assets/img/sign/fb.png" alt="img">
+                                        continue with facebook
+                                    </a>
+                                </div>
+                                <div class="form-check d-flex align-items-center gap-2 from-customradio">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        i accept your terms & conditions
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-right-thumb position-relative">
+                            <img src="assets/img/sign/login.png" alt="img">
+                            <div class="signlogin-btnwrap">
+                                <button class="theme-create style-border" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    create account
+                                </button>
+                                <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    Log In
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Version 2 -->
+        <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-md-flex d-grid gap-md-0 gap-5 align-items-center">
+                        <div class="modal-common-content">
+                            <div class="box">
+                                <h2>
+                                    Create account
+                                </h2>
+                                <form action="#" class="login-from">
+                                    <div class="form-grp cmn-mb">
+                                        <input type="text" placeholder="User name">
+                                    </div>
+                                    <div class="form-grp cmn-mb">
+                                        <input type="email" placeholder="Email Address">
+                                    </div>
+                                    <div class="form-grp cmn-mb">
+                                        <input type="text" placeholder="Enter Password">
+                                    </div>
+                                    <div class="form-grp">
+                                        <input type="text" placeholder="Enter Confirm password">
+                                    </div>
+                                </form>
+                                <span class="orting-badge">
+                                    Or
+                                </span>
+                                <div class="d-grid gap-3">
+                                    <a href="#" class="cmn-social">
+                                        <img src="assets/img/sign/google.png" alt="img">
+                                        Continue With Google
+                                    </a>
+                                    <a href="#" class="cmn-social">
+                                        <img src="assets/img/sign/fb.png" alt="img">
+                                        continue with facebook
+                                    </a>
+                                </div>
+                                <div class="pb-xxl-3">
+                                    <div class="form-check d-flex align-items-center gap-2 from-customradio">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault11">
+                                        <label class="form-check-label" for="flexRadioDefault11">
+                                            i accept your terms & conditions
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <button type="button" class="theme-btn w-100">
+                                        <span>
+                                            Log in
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-right-thumb position-relative">
+                            <img src="assets/img/sign/create.png" alt="img">
+                            <div class="signlogin-btnwrap">
+                                <button class="theme-create style-border" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    create account
+                                </button>
+                                <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    Log In
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Area Start -->
+        <div class="search-wrap">
+            <div class="search-inner">
+                <i class="fas fa-times search-close" id="search-close"></i>
+                <div class="search-cell">
+                    <form method="get">
+                        <div class="search-field-holder">
+                            <input type="search" class="main-search-input" placeholder="Search...">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--<< Breadcrumb Section Start >>-->
+        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-1.jpg');">
+            <div class="container">
+                <div class="page-heading">
+                    <div class="page-header-left">
+                        <h1 class="wow fadeInUp" data-wow-delay=".3s">FAQ’S</h1>
+                        <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                            <li>
+                                <a href="/">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-chevrons-right"></i>
+                            </li>
+                            <li>
+                                FAQ’S
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
+                        <img src="assets/img/breadcrumb.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Faq Section Start -->
+        <section class="faq-section fix py-4">
+            <div class="container">
+                <div class="faq-wrapper">
+                    <div class="faq-content">
+                        <div class="section-title text-center py-3">
+                            <span class="wow fadeInUp fs-2 ">Frequently Asked Questions</span>
+                        </div>
+                        <div class="faq-accordion mt-4 mt-md-0">
+                            <div class="accordion" id="accordion">
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".1s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button show" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                            How can WhatsApp Messaging benefit my business?
+                                        </button>
+                                    </h5>
+                                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+                                        <div class="accordion-body ">
+                                            <p>WhatsApp is a widely-used messaging platform that offers secure, direct communication with customers. With a2zsms.in’s WhatsApp Messaging service, you can provide timely updates, support, and personalized interactions. This trusted platform enables your business to build strong relationships, reach a large audience, and ensure messages are received and acted upon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- RCS FAQ -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".2s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                            What is RCS, and how does it enhance messaging?
+                                        </button>
+                                    </h5>
+                                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Rich Communication Services (RCS) is an upgrade to SMS that supports multimedia content, interactive buttons, and enhanced branding within messages. a2zsms.in’s RCS service allows you to send images, videos, and dynamic content, providing an app-like experience that boosts engagement and makes your messages more impactful and visually appealing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- Voice Call FAQ -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                            How can Voice Call services improve customer engagement?
+                                        </button>
+                                    </h5>
+                                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Voice Call services enable you to reach customers with automated, pre-recorded calls. This can be used for reminders, notifications, and even personalized greetings. With a2zsms.in, you can deliver a direct, human touch that helps create a more personalized experience, making it ideal for urgent communications and enhancing overall customer engagement.</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- Bulk SMS FAQ -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".4s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                            What are the advantages of using Bulk SMS for business communication?
+                                        </button>
+                                    </h5>
+                                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Bulk SMS allows businesses to reach a large audience quickly and efficiently, making it ideal for promotions, alerts, and updates. With a2zsms.in, you can send messages in bulk to maximize reach, drive engagement, and keep your customers informed. Bulk SMS is cost-effective, has high open rates, and ensures fast message delivery.</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- OTP Service FAQ -->
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                            How does OTP Service enhance security for my business?
+                                        </button>
+                                    </h5>
+                                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>One-Time Password (OTP) services provide a secure way to authenticate users for sensitive actions such as logins, payments, or account verification. With a2zsms.in, OTP messages are delivered instantly, ensuring real-time verification and enhancing security. This added layer of protection boosts customer confidence in your platform by securing their transactions.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".6s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                            How does Bulk SMS enhance communication with customers?
+                                        </button>
+                                    </h5>
+                                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Bulk SMS enables rapid communication by allowing businesses to reach multiple customers at once. Ideal for timely updates, reminders, and promotions, it builds customer engagement by ensuring your audience stays informed and connected to your business efficiently.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                            What benefits does a Bulk SMS API offer to my software applications?
+                                        </button>
+                                    </h5>
+                                    <div id="faq2" class="accordion-collapse fadeInUp collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body ">
+                                            <p>Our Bulk SMS API seamlessly integrates with your applications, enabling automated SMS delivery for notifications, confirmations, and reminders. This integration saves time and effort by automating communication directly from your platform. Plus, our detailed support and documentation ensure an easy setup.</p>
+                                        </div>       
+                                   </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                            Can Bulk SMS messages be customized for each recipient?
+                                        </button>
+                                    </h5>
+                                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Absolutely! You can add personal details like names or order information to each message. Customized messages are more engaging and have proven to enhance response rates, making your campaigns more effective and personable.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".8s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                            Is there a maximum number of SMS messages I can send in a campaign?
+                                        </button>
+                                    </h5>
+                                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>We offer scalable packages suitable for any business size, so you’re not limited by message volume. From small campaigns to high-volume needs, our flexible plans let you choose the best fit for your communication strategy.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".8s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                            Can I plan and schedule SMS campaigns in advance?
+                                        </button>
+                                    </h5>
+                                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Yes, you can schedule SMS campaigns for any specific date and time. This allows you to align campaigns with events, promotions, or reminders without needing to manage them manually, ensuring timely communication with your audience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".9s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                            What distinguishes Promotional SMS from Transactional SMS?
+                                        </button>
+                                    </h5>
+                                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Promotional SMS is designed for marketing purposes and reaches non-DND numbers within specific hours. Transactional SMS, however, is for critical alerts like OTPs and notifications, which can be sent 24/7 to both DND and non-DND numbers. Our platform supports both options to meet your needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".9s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                            How fast are SMS messages delivered to recipients?
+                                        </button>
+                                    </h5>
+                                    <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Our system is optimized for quick delivery, ensuring SMS messages reach recipients within seconds. Transactional messages, like OTPs, are prioritized for real-time access, while promotional messages are delivered promptly for effective reach.</p>
+                                       </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".9s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="true" aria-controls="faq8">
+                                            How does Bulk SMS enhance engagement and marketing success?
+                                        </button>
+                                    </h5>
+                                    <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>With up to 98% open rates, SMS is one of the most effective ways to reach customers instantly. From promotional offers to reminders, SMS keeps your audience engaged and informed. With a2zsms.in, you can target, personalize, and measure each campaign’s success, ensuring maximum engagement.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".10s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+                                            Why should I integrate an SMS API for automated messaging?
+                                        </button>
+                                    </h5>
+                                    <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>An SMS API lets you automate messages from your software, such as CRMs and e-commerce platforms, for timely notifications, confirmations, and alerts. Our SMS API provides seamless integration, saving you time and ensuring that important messages reach your audience without delay.</p>
+                                        </div>       
+                                   </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".10s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                                            Is Bulk SMS suitable for both small businesses and enterprises?
+                                        </button>
+                                    </h5>
+                                    <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Bulk SMS is flexible and beneficial for all business sizes. For small businesses, it offers a cost-effective outreach tool. For enterprises, it provides high-volume communication capabilities. With a2zsms.in’s scalable options, you can tailor your SMS strategy to your business’s unique needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".10s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq11" aria-expanded="false" aria-controls="faq11">
+                                            How does a2zsms.in handle DND compliance and data security?
+                                        </button>
+                                    </h5>
+                                    <div id="faq11" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>At a2zsms.in, we adhere strictly to TRAI regulations, ensuring that promotional messages go only to non-DND numbers, while transactional SMS can reach DND numbers as needed. Additionally, our platform uses advanced encryption to protect customer data and maintain high-security standards.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-delay=".10s">
+                                    <h5 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq12" aria-expanded="false" aria-controls="faq12">
+                                            Can I track the performance of my SMS campaigns with a2zsms.in?
+                                        </button>
+                                    </h5>
+                                    <div id="faq12" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <p>Yes, we provide detailed reports and analytics to monitor each SMS campaign’s effectiveness. From delivery rates to engagement metrics, our platform helps you evaluate and optimize your strategy, ensuring each campaign yields the best results.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+         <!--<< Contact Section Start >>-->
+         <section class="contact-section fix section-bg section-padding">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                           <div class="contact-left">
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Request a <br> Consultation</h2>
+                                <div class="contact-image wow fadeInUp" data-wow-delay=".5s">
+                                    <img src="assets/img/contact.png" alt="contact-img">
+                                </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="contact-right">
+                                <h3 class="wow fadeInUp">Get in Touch</h3>
+                                <form action="#" id="contact-form" method="POST" class="contact-form-items">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                            <div class="form-clt">
+                                                <input type="text" name="name" id="name" placeholder="Full Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="form-clt">
+                                                <input type="text" name="email" id="email" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="form-clt">
+                                                <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="form-clt">
+                                                <div class="category-oneadjust">
+                                                    <select name="cate" class="category">
+                                                        <option value="1">
+                                                            Subject
+                                                        </option>
+                                                        <option value="1">
+                                                          Doming
+                                                        </option>
+                                                        <option value="1">
+                                                            Hosting
+                                                        </option>
+                                                        <option value="1">
+                                                          VPS Hosting
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="form-clt">
+                                                <textarea name="message" id="message" placeholder="Messages"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
+                                            <div class="form-check d-flex gap-2 from-customradio">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault12">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Collaboratively formulate principle capital. Progressively evolve user 
+                                                </label>
+                                            </div>
+                                            <button type="submit" class="theme-btn">
+                                                Submit Now <i class="fa-solid fa-arrow-right-long"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<< Footer Section Start >>-->
+         <footer class="footer-section fix bg-cover" style="background-image: url('assets/img/footer-bg-2.jpg');">
+            <div class="footer-widgets-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <a href="/">
+                                        <img src="assets/img/logo/logo.png" alt="logo-img">
+                                    </a>
+                                </div>
+                                <div class="footer-content">
+                                    <p>
+                                    Bulk Sms is the most Popular Marketing method as compared to other marketing method, it is most trusted and Cheapest.                                    </p>
+                                    <h4 class="payment-text">Payment Method</h4>
+                                    <ul class="brand-logo">
+                                        <li>
+                                           <img src="assets/img/visa-logo.png" alt="img">
+                                        </li>
+                                        <li>
+                                            <img src="assets/img/mastercard-logo.png" alt="img">
+                                        </li>
+                                        <li>
+                                            <img src="assets/img/payoneer-logo.png" alt="img">
+                                        </li>
+                                        <li>
+                                            <img src="assets/img/affirm-logo.png" alt="img">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single-footer-widget ml-50">
+                                <div class="widget-head">
+                                    <h3>Company</h3>
+                                </div>
+                                <ul class="list-area">
+                                    <li>
+                                        <a href="/">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                         Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            About
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="service.html">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            Service
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            FAQ’S
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            Contact us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="single-footer-widget style-margin">
+                                <div class="widget-head">
+                                    <h3> sms Plans</h3>
+                                </div>
+                                <ul class="list-area">
+                                    <li>
+                                        <a href="bulksms.html">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            Bulk Sms
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            WhatsApp Api
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            RCS sms
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="bulksms.html">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            Sms Pricing
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="bulksms.html">
+                                            <i class="fa-regular fa-chevrons-right"></i>
+                                            Pricing
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-4 wow fadeInUp" data-wow-delay=".9s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <h3>Newsletter</h3>
+                                </div>
+                                <div class="footer-content">
+                                    <p>
+                                        Sign up to seargin weekly newsletter to get the latest updates.
+                                    </p>
+                                    <div class="footer-input">
+                                        <input type="email" id="email2" placeholder="Enter Email Address">
+                                        <button class="newsletter-btn" type="submit">
+                                            <i class="fa-regular fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                    <div class="social-icon d-flex align-items-center">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom style-2">
+                <div class="container">
+                    <div class="footer-wrapper d-flex align-items-center justify-content-between">
+                        <p class="wow fadeInLeft" data-wow-delay=".3s">
+                            © All Copyright 2024 by <a href="/">A2ZSMS</a>
+                        </p>
+                        <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
+                            <li>
+                                <a href="contact.html">
+                                    Terms & Condition
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <a href="#" id="scrollUp" class="scroll-icon">
+                    <i class="far fa-arrow-up"></i>
+                </a>
+            </div>
+        </footer>
+
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
